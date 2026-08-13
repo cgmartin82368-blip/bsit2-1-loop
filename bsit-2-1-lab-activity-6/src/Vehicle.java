@@ -10,7 +10,7 @@ public class Vehicle {
         this.year = year;
     }
 
-    // A behavior shared by all vehicles
+    // Behavior shared by all vehicles
     public void displayInfo() {
         System.out.println("Vehicle: " + brand + " (" + year + ")");
     }
