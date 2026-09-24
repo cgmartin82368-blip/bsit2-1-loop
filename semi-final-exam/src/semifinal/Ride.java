@@ -28,11 +28,11 @@ public abstract class Ride {
     //   b) vehicle() - returns a String
     // >>> write your code here <<<
     public abstract fare(double){
-        void send(double);
+        return double;
     }
 
     public abstract vehicle(String){
-        void send(String);
+        return String;
     }
  
     // GIVEN: a finished method every child inherits.

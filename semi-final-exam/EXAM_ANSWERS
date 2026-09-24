@@ -5,11 +5,12 @@ Section:
 
 ## Question 1
 Why is the list in RideManager typed ArrayList<Ride> and not ArrayList<Jeepney>?
+ArrayList can hold ANY kind of ride (upcasting).
 
 Your answer:
 
 ## Question 2
 In showStudentDiscounts(), why must you check instanceof before the cast?
-
+If I don't check with instanceof before I cast, it crashes with a ClassCastException while casting a Taxi to StudentDiscount compilation.
 
 Your answer:

@@ -32,6 +32,10 @@ public class RideManager {
     //   and call r.printTicket() - no if/else, no type checking.
     public void showAllTickets() {
         // >>> write your code here <<<
+        for (Ride r : rides) {
+            r.printTicket();
+        }
+
     }
  
     // TODO 9 (10 pts): Print student discounts ONLY for rides that
@@ -43,6 +47,13 @@ public class RideManager {
     //     4. call s.printDiscount();
     public void showStudentDiscounts() {
         // >>> write your code here <<<
+        for (Ride r : rides) {
+            if (r instanceof StudentDiscount) {
+                System.out.println(print "  " + r.getPassenger() + " (" + r.vehicle() + ")");
+                StudentDiscount s = (StudentDiscount) r;
+                s.printDiscount();
+            }
+        }
     }
  
     // TODO 10 (7 pts): Return the total of all fares.
@@ -50,7 +61,9 @@ public class RideManager {
     //   then return total.
     public double totalSales() {
         // >>> write your code here <<<
-        return 0;   // TODO 10: replace this line
+        double total = 0;
+        r.fare();
+        return total;   // TODO 10: replace this line
     }
  
     // GIVEN

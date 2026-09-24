@@ -1,7 +1,5 @@
 package semifinal;
 
-import java.util.Scanner;
-
 /**
  * Jeepney - FULLY WRITTEN FOR YOU. Use it as your model for
  * Tricycle.java and Taxi.java. Read every line.
